@@ -1,0 +1,13 @@
+[package]
+name = "decision_tree"
+version = "0.1.0"
+authors = ["Aydin abedinia <abedinia.aydin@gmail.com"]
+edition = "2018"
+description = "A Rust library for building and using decision trees for classification."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/abedinia/rust_decision_tree"
+homepage = "https://github.com/abedinia/rust_decision_tree"
+documentation = "https://docs.rs/abedinia/rust_decision_tree"
+readme = "README.md"
+
+[dependencies]
