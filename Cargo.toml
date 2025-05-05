@@ -1,13 +1,23 @@
 [package]
 name = "decision_tree"
-version = "0.1.0"
-authors = ["Aydin abedinia <abedinia.aydin@gmail.com"]
-edition = "2018"
-description = "A Rust library for building and using decision trees for classification."
+version = "1.0.0"
+authors = ["Aydin Abedinia <abedinia.aydin@gmail.com>"]
+edition = "2021"
+description = "A Rust library for building and using decision trees for classification and regression."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/abedinia/rust_decision_tree"
 homepage = "https://github.com/abedinia/rust_decision_tree"
-documentation = "https://docs.rs/abedinia/rust_decision_tree"
+documentation = "https://docs.rs/decision_tree"
 readme = "README.md"
+keywords = ["machine-learning", "decision-tree", "classification", "regression", "ml"]
+categories = ["science", "algorithms", "mathematics"]
 
 [dependencies]
+rayon = "1.10.0"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "tree_benchmarks"
+harness = false
